@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EngiProgramee - Online Java Compiler</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.34.1/min/vs/loader.min.js"></script>
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <h1 class="brand-title">𝐄𝐧𝐠𝐢𝐏𝐫𝐨𝐠𝐫𝐚𝐦𝐞𝐞</h1>
+      <span class="brand-sub">Online Java Compiler</span>
+    </div>
+
+    <div class="btn-group">
+      <button id="runBtn">▶ Run</button>
+      <button id="clearBtn">🧹 Clear Output</button>
+      <button id="shareBtn">🔗 Share Code</button>
+    </div>
+  </header>
+
+  <main>
+    <div id="editor"></div>
+    <div class="input-section">
+      <h3>Input (for Scanner):</h3>
+      <textarea id="inputBox" placeholder="Enter input values here if your code uses Scanner..."></textarea>
+    </div>
+    <div id="output">
+      <div class="output-header">
+        <h2>Output:</h2>
+      </div>
+      <pre id="outputText">Write code and click "Run"...</pre>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Lucky and Dev. All Rights Reserved.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
